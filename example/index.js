@@ -6,7 +6,7 @@ require('dotenv').config()
 async function main() {
 
     var unity_version = "2020.3.6f1";
-    var file = "./data/openapi.unitypackage";
+    var file = "../data/openapi.unitypackage";
     var packageVersion_id = 250770;
     
     publisherPortalLib.setConfig(process.env.HOST)
